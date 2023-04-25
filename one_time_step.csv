@@ -1,0 +1,9 @@
+timestamp,vehicle_id,X_vehicle_position,Y_vehicle_position,vehicle_speed,vehicle_acceleration,traffic_light_state,front_vehicle_id,lane_id,intersction_id,lanes_leading_1,lanes_leading_2,vehicle_length,Gap,vehicle_arrangement,is_last,is_first,lane_length,number_of_vehical_on_lane,number_of_places_available_in_lane,num_incoming_vehicle,angle_movment
+1,0,8.0,13.0,2.5,0.2,1,-1,0,0,16,18,1,0.5,1,False,True,4,3,0,2,0
+1,1,6.5,13.0,2.3,0.2,1,0,0,0,16,18,1,0.5,2,False,False,4,3,0,2,0
+1,2,5.0,13.0,2.1,0.2,1,1,0,0,16,18,1,0.5,3,True,False,4,3,0,2,0
+1,3,9.0,16.0,2.75,0.1,0,-1,1,0,5,4,1,0.5,1,True,True,6,1,3,1,270
+1,4,11.0,12.0,1.54,0.15,1,-1,2,0,14,15,1,0.5,1,False,True,4,2,1,1,90
+1,5,11.0,10.5,3.0,0.15,1,4,2,0,14,15,1,0.5,2,True,False,4,2,1,1,90
+1,6,12.0,15.0,1.54,0.05,0,-1,3,0,11,9,1,0.5,1,False,True,8,2,3,3,180
+1,7,13.5,15.0,1.48,0.05,0,6,3,0,11,9,1,0.5,2,True,False,8,2,3,3,180

@@ -1,0 +1,12 @@
+<configuration>
+    <input>
+        <net-file value="4-way intersection.net.xml"/>
+        <route-files value="4-way intersection.rou.xml"/>
+        <!--<additional-files value="demo.add.xml"/>-->
+
+    </input>
+	
+	<gui_only>
+        <gui-settings-file value="4-way intersection.view.xml"/>
+    </gui_only>
+</configuration>

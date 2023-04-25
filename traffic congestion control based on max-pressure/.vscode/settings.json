@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        "./codes/information creators",
+        "./codes/information creators",
+        "./codes/RL_Algo"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}

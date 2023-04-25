@@ -1,0 +1,12 @@
+<configuration>
+    <input>
+        <net-file value="cross_intersection.net.xml"/>
+        <route-files value="cross intersection0.rou.xml"/>
+        <!--<additional-files value="demo.add.xml"/>-->
+
+    </input>
+	
+	<gui_only>
+        <gui-settings-file value="cross intersection.view.xml"/>
+    </gui_only>
+</configuration>

@@ -1,0 +1,14 @@
+<configuration>
+    <input>
+        <net-file value="5-intersections.net.xml"/>
+        <route-files value="5-intersections.rou.xml"/>
+        
+
+    </input>
+	
+	<gui_only>
+        <gui-settings-file value="5-intersections.view.xml"/>
+        <start value="true"/>
+        <quit-on-end value="true"/>
+    </gui_only>
+</configuration>

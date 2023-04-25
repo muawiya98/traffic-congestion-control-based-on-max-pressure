@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-03-19 10:32:38 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Networks\5-intersections\5-intersections.net.xml"/>
+        <route-files value="Networks\5-intersections\5-intersections.rou.xml"/>
+    </input>
+
+    <traci_server>
+        <remote-port value="59201"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="Networks\5-intersections\5-intersections.view.xml"/>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<snapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/state_file.xsd" version="1.14.1" time="1.00" type="micro">
+    <route id="route_W_0" state="1" edges="-E16 E15"/>
+    <delay number="1" begin="1" end="0" depart="0.00" time="0.00"/>
+    <vType id="car" length="5.00" maxSpeed="10.00" vClass="passenger" accel="3.5" decel="2.2" sigma="1.0"/>
+    <vType id="ev" length="7.00" maxSpeed="20.00" speedFactor="normc(2.00,0.00)" vClass="emergency" guiShape="emergency" minGapLat="0.20" accel="5.5" decel="2.2" sigma="1.0"/>
+    <vehicle id="0" type="car" depart="0.00" route="route_W_0" distance="0 0" speedFactor="1.0600" state="2050 0 0 5.10 0 0.00 1000 0 0" pos="5.10 0.10 0.00" speed="0.00 0.00" angle="270.00" posLat="0.00" waitingTime="100000 0"/>
+    <lane id="-E16_0">
+        <vehicles value="0"/>
+    </lane>
+    <tlLogic id="0" programID="0" phase="0" duration="1000"/>
+    <tlLogic id="1" programID="0" phase="0" duration="1000"/>
+    <tlLogic id="2" programID="0" phase="0" duration="1000"/>
+    <tlLogic id="3" programID="0" phase="0" duration="1000"/>
+    <tlLogic id="4" programID="0" phase="0" duration="1000"/>
+</snapshot>
